@@ -34,12 +34,14 @@
     width: 100%;
     height: 100vh;
     color: #fff !important;
-    background: url(./photo/bg.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background: url(./photo/bg.jpg);
+    position: relative;
+    // background-position: top;
+    // background-repeat: no-repeat;
+    // background-size: cover;
     @include centeralize;
     .large-title {
+      position: absolute;
       @include titleSection($sacramento);
 
       h1 {
